@@ -1,0 +1,27 @@
+/*
+Create By: Thach Le 
+LogoComponent.css 
+*/
+.animated-gradient {
+    background: linear-gradient(270deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8b00ff);
+    background-size: 1400% 1400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: GradientAnimation 10s ease infinite;
+  }
+  
+  @keyframes GradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  .cursive {
+    font-family: 'Pacifico', cursive;
+  }  
+  .carousel-image {
+    width: 100%;
+    height: auto; /* Giữ tỷ lệ của ảnh */
+    object-fit: cover; /* Đảm bảo ảnh bao phủ toàn bộ khung */
+  }
+
+  
